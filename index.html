@@ -3,12 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
     <main>
-
+        <section>
+            <div class="search">
+                <form action="#">          
+                    <label for="meteo-search"></label>
+                    <input type="search" id="meteo-search" placeholder="Ville" name="meteo" />
+                    <button class="cherche" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #000000"></i></button>
+                </form>
+            </div>
+            <div class="">
+                <form action="#">
+                    <input id="Latitude" type="text" placeholder="Latitude">
+                    <input id="Longitude" type="text" placeholder="Longitude">
+                    <!-- <button></button> -->
+                </form>
+            </div>
+        </section>
+        <section>
+            <h1>Ville</h1>
+            <div class=""><i class="fa-solid fa-magnifying-glass" style="color: #000000"></i></div>
+            <div class=""></div>
+        </section>
+        <section>
+            <div class="extra-button">
+                <h2>Je suis juste là !!!</h2>
+                <button><i class="fa-solid fa-magnifying-glass" style="color: #000000"></i></button>
+            </div>
+        </section>
     </main>
 </body>
 <script src="script.js"></script>
